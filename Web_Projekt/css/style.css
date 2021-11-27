@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+#body{
+    overflow: hidden;
+}
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../imgs/blood-1813410_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#injection{
+    position: absolute;
+    width: 25px;
+    height: 100px;
+    bottom: 0;
+    left: calc(50% - 12.5px);
+    background-image: url('../imgs/syring.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+
+
+}
+
+.corona{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-image: url('../imgs/tenor.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bullet{
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background-color: aliceblue;
+    bottom: 100px;
+}
+
+#pointsDiv{
+    background-color: bisque;
+    font-size:  20px;
+}
+#logo{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}
+#logoDiv{
+    display: flex;
+}
+#logoInList{
+    margin: auto;
+    padding: auto;
+}
+
+#row1{
+    display: flex;
+    flex-direction: row;
+    background-color: #802b00;
+    font-family: 'Oswald', sans-serif;
+    border-style: solid;
+    border-radius: 15px;
+}
+#row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: stretch;
+    background-image: url("../imgs/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg");
+    font-family: 'Cairo', sans-serif;
+    overflow: none;
+}
+#row3{
+    background-color: #c4b7a6;
+}
+#foo{
+    display: flex;
+    justify-content: center;
+    grid-area: foo;
+}
+#first{
+    border-style: outset;
+    border-left: 6px solid #802b00;
+    background-color: #dac29f;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    box-shadow: 10px 15px 23px black;
+    
+}
+#second{
+    border-style: outset;
+    border-left: 6px solid #802b00;
+    background-color: #dac29f;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    box-shadow: 10px 15px 23px black;
+}
+#third{
+    border-style: outset;
+    border-left: 6px solid #802b00;
+    background-color: #dac29f;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    box-shadow: 10px 15px 23px black;
+}
+.container{
+    display:flex ;
+    background-color: slategray;
+}
+#map{
+    display: flex;
+    width: 300px;
+    height: 200px;
+}
+#list1{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.navElement{
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #802b00;
+    margin: 5px;
+    padding: 5px;
+    overflow: none;
+    text-align: center;
+    background: linear-gradient(to bottom, #dac292 0%, #b9936c 100%);
+    
+
+}
+.navElement:hover{
+    box-shadow: 5px 12px 20px 	#FFDEAD;
+}
+a{
+    text-decoration: none;
+    color : black;
+}
